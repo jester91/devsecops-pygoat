@@ -1,9 +1,5 @@
 name: CI
-on:
-  push: 
-    branches: 
-      - main
-      - features/*
+on: [push]
 
 #SAST Job - Bandit
 jobs: 
